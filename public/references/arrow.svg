@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <style>
+      .dotted {
+        fill: none;
+        stroke: #555;
+        stroke-width: 2.5;
+        stroke-dasharray: 6 5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .guide-dot { fill: #888; }
+    </style>
+  </defs>
+  <!-- Arrow: single outline tracing shaft + head without internal edges -->
+  <polygon class="dotted" points="60,175 260,175 260,140 350,200 260,260 260,225 60,225" />
+  <!-- Guide dots -->
+  <circle class="guide-dot" cx="60" cy="200" r="3" />
+  <circle class="guide-dot" cx="260" cy="200" r="3" />
+  <circle class="guide-dot" cx="350" cy="200" r="3" />
+  <circle class="guide-dot" cx="260" cy="140" r="3" />
+  <circle class="guide-dot" cx="260" cy="260" r="3" />
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <style>
+      .dotted {
+        fill: none;
+        stroke: #555;
+        stroke-width: 2.5;
+        stroke-dasharray: 6 5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .detail {
+        fill: none;
+        stroke: #777;
+        stroke-width: 2;
+        stroke-dasharray: 5 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .whisker {
+        fill: none;
+        stroke: #999;
+        stroke-width: 1.5;
+        stroke-dasharray: 4 5;
+        stroke-linecap: round;
+      }
+      .guide-dot { fill: #888; }
+    </style>
+  </defs>
+  <rect width="400" height="400" fill="white" />
+  <!-- Head with ears — single continuous path -->
+  <!-- Arc from right ear inner, around bottom, to left ear base, left ear, arc across top, right ear -->
+  <path class="dotted" d="
+    M 194,118
+    A 120,120 0 1 1 116,116
+    L 146,46 194,118
+    A 120,120 0 0 1 284,116
+    L 254,46 206,118
+  " />
+  <!-- Left eye -->
+  <circle class="detail" cx="158" cy="195" r="16" />
+  <!-- Right eye -->
+  <circle class="detail" cx="242" cy="195" r="16" />
+  <!-- Nose -->
+  <polygon class="detail" points="200,225 189,248 211,248" />
+  <!-- Whiskers -->
+  <line class="whisker" x1="182" y1="237" x2="104" y2="218" />
+  <line class="whisker" x1="182" y1="251" x2="104" y2="262" />
+  <line class="whisker" x1="218" y1="237" x2="296" y2="218" />
+  <line class="whisker" x1="218" y1="251" x2="296" y2="262" />
+  <!-- Guide dots -->
+  <circle class="guide-dot" cx="200" cy="80" r="3" />
+  <circle class="guide-dot" cx="146" cy="46" r="3" />
+  <circle class="guide-dot" cx="254" cy="46" r="3" />
+</svg>

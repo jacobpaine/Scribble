@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <style>
+    .dotted { fill: none; stroke: #333; stroke-width: 2; stroke-dasharray: 6,4; }
+  </style>
+  <rect width="400" height="400" fill="white" />
+
+  <!-- Full torso outline -->
+  <path class="dotted" d="
+    M 109,63
+    C 133,57 267,57 291,63
+    C 306,93 310,178 256,200
+    C 253,216 252,228 250,240
+    C 280,247 278,280 249,320
+    C 240,330 160,330 151,320
+    C 122,280 120,247 150,240
+    C 148,228 147,216 144,200
+    C 90,178 94,93 109,63
+    Z
+  "/>
+
+  <!-- Costal arch (ribcage bottom boundary) -->
+  <path class="dotted" d="
+    M 256,200
+    C 240,208 160,208 144,200
+  "/>
+
+  <!-- Pelvis top (waist-to-pelvis boundary) -->
+  <line class="dotted" x1="150" y1="240" x2="250" y2="240" />
+</svg>

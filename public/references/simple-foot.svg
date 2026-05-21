@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <style>
+    .dotted { fill: none; stroke: #333; stroke-width: 2; stroke-dasharray: 6,4; }
+  </style>
+  <rect width="400" height="400" fill="white" />
+
+  <!-- Right foot plantar view — wider bridge, smaller ball, longer toes -->
+  <path class="dotted" d="
+    M 306,112
+    C 314,118 318,126 318,140
+    C 318,150 312,156 300,164
+
+    C 280,172 268,186 264,210
+    C 260,222 260,238 264,252
+
+    C 270,274 280,296 276,318
+    C 268,340 208,340 200,318
+    C 196,296 206,274 214,252
+
+    C 208,232 198,216 186,204
+    C 170,192 154,178 146,168
+    C 142,160 140,152 140,144
+
+    C 136,136 132,126 136,118
+    C 140,108 148,104 156,106
+
+    C 160,88 166,74 178,68
+    C 188,66 196,72 200,80
+
+    C 204,64 212,56 222,54
+    C 234,54 240,60 244,68
+
+    C 248,56 256,50 264,50
+    C 274,52 278,60 280,68
+
+    C 284,64 290,60 296,62
+
+    C 300,54 308,48 318,48
+    C 330,52 336,62 338,72
+
+    C 340,82 336,92 306,112
+    Z
+  "/>
+
+  <!-- Toe pads -->
+  <circle class="dotted" cx="322" cy="66" r="11" />
+  <circle class="dotted" cx="266" cy="56" r="6" />
+  <circle class="dotted" cx="226" cy="56" r="6" />
+  <circle class="dotted" cx="174" cy="74" r="6" />
+  <circle class="dotted" cx="140" cy="114" r="5" />
+</svg>

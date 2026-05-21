@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <style>
+      .dotted {
+        fill: none;
+        stroke: #555;
+        stroke-width: 2.5;
+        stroke-dasharray: 6 5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .guide-dot { fill: #888; }
+    </style>
+  </defs>
+  <rect width="400" height="400" fill="white" />
+  <!-- Cross / plus sign — single 12-sided polygon outline -->
+  <polygon class="dotted" points="
+    167,60 233,60 233,167 340,167 340,233 233,233
+    233,340 167,340 167,233 60,233 60,167 167,167
+  " />
+  <!-- Guide dots at arm tips and center -->
+  <circle class="guide-dot" cx="200" cy="60" r="3" />
+  <circle class="guide-dot" cx="340" cy="200" r="3" />
+  <circle class="guide-dot" cx="200" cy="340" r="3" />
+  <circle class="guide-dot" cx="60" cy="200" r="3" />
+  <circle class="guide-dot" cx="200" cy="200" r="3" />
+</svg>
